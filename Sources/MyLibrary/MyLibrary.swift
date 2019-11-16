@@ -5,7 +5,7 @@ public class MyLibrary {
         
     }
     
-    public static unc showMeow(inVC viewController: UIViewController) {
+    public static func showMeow(inVC viewController: UIViewController) {
         let a = UIAlertController(title: "Test", message: "Meow", preferredStyle: .alert)
         
         viewController.show(a, sender: nil)
